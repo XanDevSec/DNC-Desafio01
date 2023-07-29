@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+/* TOP (BLACK #303030) */
+
+#top{
+    background-color: #303030;      
+}
+
+#titulo-top{
+    padding-top: 206px;
+    padding-left: 62px;
+    padding-right: 354px;
+    color: #FFFFFF;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+}
+
+#texto-top{
+    padding-bottom: 149px;
+    padding-left: 62px;
+    color: #FFFFFF;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* MID1 (LIGHT GRAY #F9F9F9) */
+
+#mid1{
+    padding-top: 96px;
+    padding-left: 171px;
+    padding-bottom: 66px;
+    padding-right: 64px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.numero-mid1{
+    color: #000000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.texto-mid1{
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* MID2 (WHITE #FFFFFF) */
+
+#mid2{
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: justify;
+}
+
+#titulo-mid2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 274px 0px 314px 77px;
+}
+
+#texto-mid2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#imagem01{
+    width: 510px;
+    height: 605px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    margin: 82px 54px 92px 84px;
+    cursor: pointer;
+    }
+
+/* LOW (BLACK #303030) */
+
+#low{
+    text-align: center;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#titulo-low{
+    padding: 87px 0px 48px 0px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+input{
+    Width: 478px;
+    height: 62px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    
+    color: #000000;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    
+    margin-bottom: 62px;
+    padding-left: 30px;
+}
+
+button{
+    Width: 286px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #C07212;
+
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #d68f39;
+    color: #FFFFFF;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #05103081;
+}
